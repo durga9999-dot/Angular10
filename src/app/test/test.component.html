@@ -1,0 +1,8 @@
+<h2>Employee Information</h2> 
+
+<table>
+    <thead><th>No</th><th>Employ</th> <th>Spouse</th> <th>Children</th></thead>
+<tbody *ngFor="let employ of employee; index as i"  style="text-align:center">
+   <tr><td>{{i}}</td> <td>{{ employ.empName}}</td> <td>{{ employ.spouse}}</td> <td>{{ employ.children}}</td>
+</tr></tbody>
+</table>

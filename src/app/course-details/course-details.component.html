@@ -1,0 +1,14 @@
+
+<h2>
+    You are selected the course with Id = {{courseId}}
+</h2>
+<nav>
+    <a (click)="toPrevious()"> Previous </a>
+    <a (click)="toNext()"> Next  </a>
+    <a (click)="goBack()">Back</a>
+</nav>
+<nav>
+    <a (click)="showDuration()">Course Duration</a>
+    <a (click)="showFee()">Course Fee Structure</a>
+</nav>
+<router-outlet></router-outlet>

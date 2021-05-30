@@ -1,0 +1,15 @@
+h2{
+    color:blue;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 30px
+}
+/* ul{ */
+    /* color: coral; */
+    /* background-color: rgb(80, 255, 168); */
+
+/* } */
+li{
+    color: rgb(255, 166, 0);
+}
